@@ -3,6 +3,23 @@ body {
 	text-align: center;
 }
 
+input {
+	background: none;
+	appearance: none;
+	border: 0;
+	color: white;
+	border-bottom: 2px solid white;
+}
+
+input::placeholder {
+	color: #FFFFFF;
+}
+
+input:focus,
+input:active {
+	outline: none;
+}
+
 .btn {
 	margin-right: 10px;
 	cursor: pointer;
