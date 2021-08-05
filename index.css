@@ -1,8 +1,10 @@
 body {
 	color: #FFFFFF;
+	text-align: center;
 }
 
 .btn {
+	margin-right: 10px;
 	cursor: pointer;
 }
 
@@ -24,7 +26,6 @@ body {
 	}
 }
 
-
 .backgroundImage {
 	position: absolute;
 	top: 0;
@@ -33,4 +34,18 @@ body {
 	height: 100%;
 	z-index: -1;
 	animation: fadeIn 1s ease-in-out forwards;
+}
+
+.todo_btn {
+	margin-left: 10px;
+	cursor: pointer;
+	border: 0;
+	outline: 0;
+	background-color: transparent;
+	filter: invert(97%) sepia(97%) saturate(10%) hue-rotate(218deg) brightness(104%) contrast(103%);
+}
+
+.toDoList {
+	list-style: none;
+	padding-left: 0px;
 }
