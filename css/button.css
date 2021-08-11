@@ -1,0 +1,8 @@
+.todo_btn {
+	margin-left: 10px;
+	cursor: pointer;
+	border: 0;
+	outline: 0;
+	background-color: transparent;
+	filter: invert(97%) sepia(97%) saturate(10%) hue-rotate(218deg) brightness(104%) contrast(103%);
+}
