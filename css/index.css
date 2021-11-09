@@ -1,21 +1,21 @@
 body {
-	color: #FFFFFF;
-	text-align: center;
+  color: #cc7351;
+  text-align: center;
 }
 
 input {
-	background: none;
-	appearance: none;
-	border: 0;
-	color: white;
-	border-bottom: 2px solid white;
+  background: none;
+  appearance: none;
+  border: 0;
+  color: #e08f62;
+  border-bottom: 2px solid #ded7b1;
 }
 
 input::placeholder {
-	color: #FFFFFF;
+  color: #9dab86;
 }
 
 input:focus,
 input:active {
-	outline: none;
+  outline: none;
 }
